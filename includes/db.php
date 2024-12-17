@@ -7,8 +7,8 @@ if (!class_exists('MongoDB\Client')) {
 }
 
 try {
-    $mongoClient = new MongoDB\Client("mongodb://localhost:27017");
-    $database = $mongoClient->psychology_web;
+    $mongoClient = new MongoDB\Client("mongodb+srv://wisnu:Wisnuhidayat123@cluster0.2pmtp.mongodb.net/");
+    $database = $mongoClient->joerney;
     
     // Collections
     $users = $database->users;
